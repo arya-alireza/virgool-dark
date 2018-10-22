@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Virgool Dark",
+  "short_name": "VrgDark",
+  "version": "0.1",
+  "description": "An extension change Virgool theme in dark.",
+  "author": "Alireza Yousefi Azar",
+  "icons": {
+    "16": "img/icon-16.png",
+    "128": "img/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+          "https://www.virgool.io/*",
+          "https://virgool.io/*"
+      ],
+      "js": [
+          "js/jquery.js",
+          "js/app.js"
+      ]
+    }
+  ],
+  "web_accessible_resources":[
+    "css/*"
+  ]
+}

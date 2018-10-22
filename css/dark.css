@@ -1,0 +1,172 @@
+/* Backgrounds */
+.dark-theme .navbar .topbar,
+.dark-theme .page-feed, 
+.dark-theme .page-home,
+.dark-theme body,
+.dark-theme .post-suggestion .postItem .postItemContent,
+.dark-theme .comments .card-cm,
+.dark-theme .modal-buttons .btn-social {
+    background: #222;
+}
+.dark-theme .m-listview,
+.dark-theme .modal .modal-content {
+    background: #191919;
+}
+.dark-theme .App_Search,
+.dark-theme .App_Search .search--input,
+.dark-theme .page-privacy .page-content .footerPostSticky,
+.dark-theme .page-single .page-content .footerPostSticky,
+.dark-theme .page-terms .page-content .footerPostSticky,
+.dark-theme .page-what-is-publication .page-content .footerPostSticky {
+    background: #333;
+}
+.dark-theme .page-feed .posts-section .postItem.postItemNoPic>a,
+.dark-theme .page-home .posts-section .postItem.postItemNoPic>a,
+.dark-theme .card,
+.dark-theme .page-privacy .post-actions .share-buttons .shorturl-input:hover,
+.dark-theme .page-single .post-actions .share-buttons .shorturl-input:hover,
+.dark-theme .page-terms .post-actions .share-buttons .shorturl-input:hover,
+.dark-theme .page-what-is-publication .post-actions .share-buttons .shorturl-input:hover,
+.dark-theme .comments,
+.dark-theme .oembedall-default {
+    background: #111;
+}
+.dark-theme .page-feed .posts-section .postItem>a:before,
+.dark-theme .page-home .posts-section .postItem>a:before {
+    background: rgba(0,0,0,.6);
+}
+.dark-theme .navbar-menu {
+    background: #0c4e8a;
+}
+.dark-theme .start-post-section {
+    background: #093863;
+}
+.dark-theme .user-popover-content:before,
+.dark-theme .user-popover-content {
+    background: #000;
+}
+.dark-theme .btn-main {
+    background: #0e74b9;
+}
+.dark-theme .post-suggestion .postItem--title:after {
+    background: linear-gradient(270deg,hsla(0,0%,100%,0),#222 50%);
+}
+
+/* Colors */
+.dark-theme .btn-text {
+    color: #0e74b9!important;
+}
+.dark-theme .page-feed .posts-section .postItem.postItemNoPic .post-caption .title,
+.dark-theme .page-home .posts-section .postItem.postItemNoPic .post-caption .title,
+.dark-theme .post-stream .card-post .post-content .post--title,
+.dark-theme .user-popover--name,
+.dark-theme .author .module--name,
+.dark-theme .page-privacy .article--title,
+.dark-theme .page-privacy h1,
+.dark-theme .page-single .article--title,
+.dark-theme .page-single h1,
+.dark-theme .page-terms .article--title,
+.dark-theme .page-terms h1,
+.dark-theme .page-what-is-publication .article--title,
+.dark-theme .page-what-is-publication h1,
+.dark-theme .page-privacy .page-content .footerPostSticky,
+.dark-theme .page-single .page-content .footerPostSticky,
+.dark-theme .page-terms .page-content .footerPostSticky,
+.dark-theme .page-what-is-publication .page-content .footerPostSticky,
+.dark-theme .post-suggestion .postItem--title,
+.dark-theme .App_Search .search--input,
+.dark-theme .m-listview .listview-header .listview--label.showName h2,
+.dark-theme .modal .modal-content:hover,
+.dark-theme .comments .card-cm .cm-body,
+.dark-theme .user-information .follow-count .follow-label span {
+    color: #fff;
+}
+.dark-theme .page-feed .posts-section .postItem.postItemNoPic .post-caption .title+*,
+.dark-theme .page-home .posts-section .postItem.postItemNoPic .post-caption .title+*,
+.dark-theme .post-stream .card-post .post-content .post--text,
+.dark-theme .post-stream .card-post .post-meta .meta--time,
+.dark-theme .user-popover--name:hover,
+.dark-theme .author .module-info,
+.dark-theme [class*=md-block-]:not(.md-block-code).md-block-rtl,
+.dark-theme .post-suggestion .postItem--subtitle,
+.dark-theme .page-privacy .post-actions .share-buttons .shorturl-input,
+.dark-theme .page-single .post-actions .share-buttons .shorturl-input,
+.dark-theme .page-terms .post-actions .share-buttons .shorturl-input,
+.dark-theme .page-what-is-publication .post-actions .share-buttons .shorturl-input,
+.dark-theme .modal-buttons .register-btn {
+    color: #ccc;
+}
+.dark-theme .btn-bookmark svg,
+.dark-theme .btn-like svg,
+.dark-theme .iconLabel,
+.dark-theme .sidebar .block .block--title,
+.dark-theme .sidebar .footer--nav ul li a,
+#form-handler .btn-link {
+    color: #ddd;
+}
+.dark-theme .sidebar .block .block-list.Posts li .Posts-info-title,
+.dark-theme .page-feed .section--subtitle,
+.dark-theme .page-home .section--subtitle,
+.dark-theme .post-suggestion .section--title,
+.dark-theme .comments .section--title,
+.dark-theme .sidebar,
+.dark-theme .m-listview .listview-header .listview--label+*,
+.dark-theme .btn-gray-color,
+.dark-theme .modal .modal-content .modal-body,
+.dark-theme .user-information .follow-count .follow-label {
+    color: #bbb;
+}
+.dark-theme .page-feed .posts-section .postItem.postItemNoPic .post-caption .name,
+.dark-theme .page-home .posts-section .postItem.postItemNoPic .post-caption .name,
+.dark-theme .post-stream .card-post .post-meta .link,
+.dark-theme .sidebar .block .block-header-tags a {
+    color: #2c89c6;
+}
+.dark-theme .btn-bookmark:hover svg {
+    stroke: #e2b626;
+}
+.dark-theme .btn-comment:hover svg {
+    fill: #0e74b9;
+}
+.dark-theme .oembedall-default,
+.dark-theme .user-popover-content,
+.dark-theme .comments .responses-editor .responses-header,
+.dark-theme .md-block-image figcaption {
+    color: rgba(255,255,255,0.5);
+}
+.dark-theme .comments .card-cm {
+    border-color: #111;
+}
+.dark-theme .user-popover hr {
+    border-top-color: rgba(255, 255, 255, 0.2);
+}
+.dark-theme .user-popover-footer em,
+.dark-theme .userInfo .readTime,
+.dark-theme .oembedall-default .oembedall-title,
+.dark-theme .oembedall-default .oembedall-description,
+.dark-theme .oembedall-default:hover {
+    color: rgba(255,255,255,0.8);
+}
+.dark-theme .btn-white,
+.dark-theme .btn-white:hover,
+.dark-theme .page-feed .section--title,
+.dark-theme .page-home .section--title {
+    color: #0e74b9;
+}
+.dark-theme .sidebar .footer--nav ul li svg {
+    fill: #1ed220;
+}
+
+/* Others */
+.dark-theme .btn-bookmark svg,
+.dark-theme .btn-like svg,
+.dark-theme .btn-comment svg,
+.dark-theme .page-single .post-actions .share-buttons .shorturl-input {
+    transition: all 300ms;
+}
+.dark-theme [class*=md-block-]:not(.md-block-code).md-block-rtl {
+    text-align: justify;
+}
+.dark-theme .md-block-image img {
+    border-radius: 20px;
+}

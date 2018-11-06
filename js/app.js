@@ -13,5 +13,4 @@ chrome.storage.local.get(['darkvirgool'], function(data) {
             $('html').removeClass('dark-theme');
         }
     }
-    console.log(data.darkvirgool);
 });

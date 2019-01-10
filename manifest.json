@@ -2,8 +2,8 @@
   "manifest_version": 2,
   "name": "Virgool Dark",
   "short_name": "VrgDark",
-  "version": "0.2",
-  "description": "An extension change Virgool theme in dark.",
+  "version": "1.0",
+  "description": "With VirgoolDark extension you can change Virgool™ theme to dark.",
   "author": "Alireza Yousefi Azar",
   "permissions": [
     "storage",
@@ -11,6 +11,7 @@
   ],
   "icons": {
     "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
     "128": "img/icon-128.png"
   },
   "content_scripts": [
@@ -26,7 +27,8 @@
     }
   ],
   "web_accessible_resources":[
-    "css/*"
+    "css/*",
+    "img/*"
   ],
   "browser_action": {
     "default_icon": {

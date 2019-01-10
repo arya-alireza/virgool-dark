@@ -13,11 +13,15 @@
 .dark-theme .md-sb-button.md-sb-img-button,
 .dark-theme .section-setting-group input,
 .dark-theme .page-contactus .contact-container .form-group input,
-.dark-theme .page-contactus .contact-container .form-group textarea {
+.dark-theme .page-contactus .contact-container .form-group textarea,
+.dark-theme .section-setting .groupbox,
+.dark-theme .page-notifications .notifications-list li,
+.dark-theme .page-feeds {
     background: #222;
 }
 .dark-theme .m-listview,
-.dark-theme .modal .modal-content {
+.dark-theme .modal .modal-content,
+.dark-theme .page-notifications {
     background: #191919;
 }
 .dark-theme .App_Search,
@@ -45,24 +49,34 @@
 .dark-theme .oembedall-default,
 .dark-theme .follow-suggestion .row .followItemContent,
 .dark-theme .page-contactus,
-.dark-theme .page-contactus .contact-container .form-group .name {
+.dark-theme .page-contactus .contact-container .form-group .name,
+.dark-theme .comments .responses-editor .responses-text .textarea,
+.dark-theme .page-search .gsc-control-wrapper-cse .gs-result:not(.gs-no-results-result),
+.dark-theme .page-search .gsc-cursor-box .gsc-cursor-page {
     background: #111;
 }
-.dark-theme .notify-list .notify--title {
+.dark-theme .notify-list .notify--title,
+.dark-theme .notify .older-notification {
     background: #444;
 }
 .dark-theme .notify-items li {
-    background: #666;
+    background: #555;
 }
-.dark-theme .notify-items li.not-read {
-    background: #777;
+.dark-theme .notify-items li.not-read,
+.dark-theme .promotion-box .body .text .buttons .btn-main:hover {
+    background: #666;
 }
 .dark-theme .page-feed .posts-section .postItem>a:before,
 .dark-theme .page-home .posts-section .postItem>a:before {
     background: rgba(0,0,0,.6);
 }
-.dark-theme .navbar-menu {
+.dark-theme .navbar-menu,
+.dark-theme .sidebar .block .block-header-newest-followers-posts {
     background: #0c4e8a;
+}
+.dark-theme .promotion-box .body {
+    background-color: #0c4e8a;
+    background-image: url("../img/typewriter.png");
 }
 .dark-theme .start-post-section {
     background: #093863;
@@ -71,8 +85,10 @@
 .dark-theme .user-popover-content {
     background: #000;
 }
-.dark-theme .btn-main {
-    background: #0e74b9;
+.dark-theme .btn-main,
+.dark-theme .btn-action-toggle.is-action,
+.dark-theme .btn-border.main-color:hover {
+    background: #48b7ff;
 }
 .dark-theme .post-suggestion .postItem--title:after {
     background: linear-gradient(270deg,hsla(0,0%,100%,0),#222 50%);
@@ -92,10 +108,36 @@
 .dark-theme .page-roadmap .roadmap-container .done-tasks {
     background-color: rgba(76, 176, 76, 0.4);
 }
+.dark-theme .page-privacy .post-tags ul li>a,
+.dark-theme .page-single .post-tags ul li>a,
+.dark-theme .page-terms .post-tags ul li>a,
+.dark-theme .page-what-is-publication .post-tags ul li>a,
+.dark-theme .md-inline-code,
+.dark-theme .listItemPlaceholder .avatarPlaceholder,
+.dark-theme .listItemPlaceholder .linePlaceholder {
+    background: rgba(255, 255, 255, 0.05);
+}
+.dark-theme .page-privacy .post-tags ul li>a:hover,
+.dark-theme .page-single .post-tags ul li>a:hover,
+.dark-theme .page-terms .post-tags ul li>a:hover,
+.dark-theme .page-what-is-publication .post-tags ul li>a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+.dark-theme .mainColor--bg,
+.dark-theme .comments .responses-buttons .btn-main {
+    background-color: #ffbc00 !important;
+}
+.dark-theme .page-search .gsc-cursor-box .gsc-cursor-page:hover,
+.dark-theme .page-search .gsc-cursor-box .gsc-cursor-page.gsc-cursor-current-page {
+    background-color: #ffbc00;
+}
+.dark-theme .modal--bgWhite {
+    background-color: rgba(25, 25, 25, 0.95);
+}
 
 /* Colors */
 .dark-theme .btn-text {
-    color: #0e74b9!important;
+    color: #48b7ff!important;
 }
 .dark-theme .page-feed .posts-section .postItem.postItemNoPic .post-caption .title,
 .dark-theme .page-home .posts-section .postItem.postItemNoPic .post-caption .title,
@@ -142,8 +184,27 @@
 .dark-theme .page-contactus .contact-container .form-group .name,
 .dark-theme .page-contactus .contact-container .form-group input,
 .dark-theme .page-contactus .contact-container .form-group textarea,
-.dark-theme .page-roadmap .roadmap-container .last-update {
+.dark-theme .page-roadmap .roadmap-container .last-update,
+.dark-theme .promotion-box .body,
+.dark-theme .promotion-box .body .text .buttons .btn-border,
+.dark-theme .md-inline-code,
+.dark-theme .btn-action-toggle.is-action,
+.dark-theme .notify .older-notification a,
+.dark-theme .navbar-menu-list li>a:hover,
+.dark-theme .btn-border:hover,
+.dark-theme .btn-border.main-color:hover,
+.dark-theme .modal-forms--title,
+.dark-theme .comments .responses-editor .responses-text .textarea,
+.dark-theme .page-search .gsc-cursor-box .gsc-cursor-page {
     color: #fff;
+}
+.dark-theme .page-privacy .post-tags ul li>a,
+.dark-theme .page-single .post-tags ul li>a,
+.dark-theme .page-terms .post-tags ul li>a,
+.dark-theme .page-what-is-publication .post-tags ul li>a,
+.dark-theme .btn-main,
+.dark-theme .btn-main:hover {
+    color: #fff !important;
 }
 .dark-theme .page-feed .posts-section .postItem.postItemNoPic .post-caption .title+*,
 .dark-theme .page-home .posts-section .postItem.postItemNoPic .post-caption .title+*,
@@ -172,7 +233,13 @@
 .dark-theme .follow-suggestion .row .followItemContent-body-name,
 .dark-theme .follow-suggestion-title,
 .dark-theme .page-contactus .contact-container h2,
-.dark-theme .page-roadmap .roadmap-container .info-content {
+.dark-theme .page-roadmap .roadmap-container .info-content,
+.dark-theme .promotion-box .body .text section,
+.dark-theme .gsc-preview-reviews,
+.dark-theme .gsc-control-cse .gs-snippet,
+.dark-theme .gsc-control-cse .gs-promotion em,
+.dark-theme .gsc-control-cse .gs-snippet,
+.dark-theme .gsc-control-cse .gs-promotion em {
     color: #ccc;
 }
 .dark-theme .btn-bookmark svg,
@@ -199,7 +266,11 @@
 .dark-theme .modal .modal-content .modal-body,
 .dark-theme .user-information .follow-count .follow-label,
 .dark-theme .navbar .user-menus-list li:hover a,
-.dark-theme a {
+.dark-theme a,
+.dark-theme .section-follow .tableCell--name > a,
+.dark-theme .section-follow .tableCell--bio,
+.dark-theme .promotion-box .body .text .buttons .btn-border:hover,
+.dark-theme .page-notifications .notifications-list li .user-info-action {
     color: #bbb;
 }
 .dark-theme .btn-gray-border,
@@ -208,7 +279,9 @@
 .dark-theme .section-setting .section-toggleButton .toggleButton-group--title,
 .dark-theme .table-stats-list .postName--options,
 .dark-theme .table-stats-list .postName--options a,
-.dark-theme .follow-suggestion .row .followItemContent-body-desc {
+.dark-theme .follow-suggestion .row .followItemContent-body-desc,
+.dark-theme .navbar .button .btn-text:nth-child(2):before,
+.dark-theme .btn-border {
     color: #aaa;
 }
 .dark-theme .label--username input {
@@ -217,20 +290,57 @@
 .dark-theme .notify-items li .user-info-name,
 .dark-theme .help-slide .slide__title,
 .dark-theme .help-keyboard,
-.dark-theme .table-stats-list thead th {
+.dark-theme .table-stats-list thead th,
+.dark-theme .page-notifications .notifications-list li .user-info-name {
     color: #eee;
+}
+.dark-theme .navbar-menu-list li>a {
+    color: rgba(255, 255, 255, 0.64);
+}
+.dark-theme .mainColor--bg .navbar-menu-list li.navbar-menu-label>a,
+.dark-theme .mainColor--bg .navbar-menu-list li:hover>a,
+.dark-theme .page-search .gsc-cursor-box .gsc-cursor-page.gsc-cursor-current-page {
+    color: #333;
 }
 .dark-theme .page-feed .posts-section .postItem.postItemNoPic .post-caption .name,
 .dark-theme .page-home .posts-section .postItem.postItemNoPic .post-caption .name,
 .dark-theme .post-stream .card-post .post-meta .link,
-.dark-theme .sidebar .block .block-header-tags a {
+.dark-theme .sidebar .block .block-header-tags a,
+.dark-theme .sidebar .block .block-body-newest-followers-posts .block-list.Posts li .Posts-info-title {
     color: #2c89c6;
 }
+.dark-theme .btn-action-toggle,
+.dark-theme .userInfo .name,
+.dark-theme [class*=md-block-]:not(.md-block-code):not(.md-block-embed) a,
+.dark-theme .author .btn-follow.is-followed,
+.dark-theme .page-notifications .notifications-list li .user-info-time,
+.dark-theme .comments .responses-editor.open .user--name {
+    color: #48b7ff;
+}
+.dark-theme .gs-result .gs-title,
+.dark-theme .gs-result .gs-title * {
+    color: #7dacff;
+}
+.dark-theme .body-publication .btn-action-toggle,
+.dark-theme .body-publication-index .btn-action-toggle {
+    color: #ffbc00;
+    border-color: #ffbc00 !important;
+}
+.dark-theme .btn-action-toggle,
+.dark-theme .promotion-box .body .text .buttons .btn-border,
+.dark-theme .author .btn-follow.is-followed,
+.dark-theme .btn-border.main-color:hover {
+    border-color: #48b7ff;
+}
 .dark-theme .btn-bookmark:hover svg {
-    stroke: #e2b626;
+    stroke: #ffbc00;
+}
+.dark-theme .btn-bookmark.is-selected svg {
+    fill: #ffbc00;
+    stroke: #ffbc00;
 }
 .dark-theme .btn-comment:hover svg {
-    fill: #0e74b9;
+    fill: #48b7ff;
 }
 .dark-theme .oembedall-default,
 .dark-theme .user-popover-content,
@@ -258,7 +368,8 @@
 .dark-theme .stats-chart-buttons .verticalDivider {
     border-color: #aaa;
 }
-.dark-theme .draft-screen-tabs--item.active {
+.dark-theme .draft-screen-tabs--item.active,
+.dark-theme .promotion-box .body .text .buttons .btn-border:hover {
     border-color: #fff;
 }
 .dark-theme .table-stats-list tbody tr {
@@ -278,7 +389,7 @@
 .dark-theme .btn-white:hover,
 .dark-theme .page-feed .section--title,
 .dark-theme .page-home .section--title {
-    color: #0e74b9;
+    color: #48b7ff;
 }
 .dark-theme .sidebar .footer--nav ul li svg {
     fill: #1ed220;
@@ -293,18 +404,25 @@
 .dark-theme .page-roadmap .roadmap-container .upcoming-tasks h3 svg,
 .dark-theme .page-roadmap .roadmap-container .done-tasks ul li i svg,
 .dark-theme .page-roadmap .roadmap-container .inprogress-tasks ul li i svg,
-.dark-theme .page-roadmap .roadmap-container .upcoming-tasks ul li i svg {
+.dark-theme .page-roadmap .roadmap-container .upcoming-tasks ul li i svg
+.dark-theme .modal-buttons .btn-social.btn-gray-color svg {
     fill: #fff;
 }
 .dark-theme .ct-label,
-.dark-theme .stats-chart-buttons .button--chart svg {
+.dark-theme .stats-chart-buttons .button--chart svg,
+.dark-theme .btn-sidebar-footer path,
+.dark-theme .btn-sidebar-footer svg {
     fill: #ccc;
 }
 .dark-theme .stats-chart svg .ct-grids line:first-child {
     stroke: #ccc;
 }
-.dark-theme .ct-grid {
+.dark-theme .ct-grid{
     stroke: #555;
+}
+.dark-theme .btn-more svg {
+    stroke: #858585;
+    fill: #858585;
 }
 
 /* Others */
@@ -327,4 +445,17 @@
 }
 .dark-theme .stats-chart svg .ct-grids line:first-child {
     stroke-width: 1px;
+}
+.dark-theme .md-block-code .code-container {
+    overflow-x: auto;
+}
+.dark-theme .notify.open .notify-list {
+    overflow: auto;
+}
+.dark-theme .notify .older-notification {
+    left: 0;
+    right: unset;
+}
+.dark-theme .comments .responses-editor .responses-text .textarea {
+    padding: 10px;
 }

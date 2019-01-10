@@ -1,2 +1,2 @@
 # Virgool Dark
-Google Chrome extension for change Virgool.io theme to dark.
+With VirgoolDark extension you can change Virgool™ theme to dark.

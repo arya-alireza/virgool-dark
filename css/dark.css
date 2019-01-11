@@ -21,7 +21,9 @@
 }
 .dark-theme .m-listview,
 .dark-theme .modal .modal-content,
-.dark-theme .page-notifications {
+.dark-theme .page-notifications,
+.dark-theme .publishModal-titleSection input,
+.dark-theme .publishModal-titleSection textarea {
     background: #191919;
 }
 .dark-theme .App_Search,
@@ -35,7 +37,8 @@
 .dark-theme .navbar .user-menus-list,
 .dark-theme .toggle-content,
 .dark-theme .editor-help,
-.dark-theme .switch-field label {
+.dark-theme .switch-field label,
+.dark-theme .block-body-newest-followers-posts .Posts li .Posts-counter span {
     background: #333;
 }
 .dark-theme .page-feed .posts-section .postItem.postItemNoPic>a,
@@ -52,7 +55,9 @@
 .dark-theme .page-contactus .contact-container .form-group .name,
 .dark-theme .comments .responses-editor .responses-text .textarea,
 .dark-theme .page-search .gsc-control-wrapper-cse .gs-result:not(.gs-no-results-result),
-.dark-theme .page-search .gsc-cursor-box .gsc-cursor-page {
+.dark-theme .page-search .gsc-cursor-box .gsc-cursor-page,
+.dark-theme .tags-block,
+.dark-theme .sidebar .block-newest-followers-posts {
     background: #111;
 }
 .dark-theme .notify-list .notify--title,
@@ -134,6 +139,9 @@
 .dark-theme .modal--bgWhite {
     background-color: rgba(25, 25, 25, 0.95);
 }
+.dark-theme .modal-editor {
+    background-color: rgba(0, 0, 0, 0.95);
+}
 
 /* Colors */
 .dark-theme .btn-text {
@@ -195,7 +203,13 @@
 .dark-theme .btn-border.main-color:hover,
 .dark-theme .modal-forms--title,
 .dark-theme .comments .responses-editor .responses-text .textarea,
-.dark-theme .page-search .gsc-cursor-box .gsc-cursor-page {
+.dark-theme .page-search .gsc-cursor-box .gsc-cursor-page,
+.dark-theme .publishModal-titleSection input,
+.dark-theme .publishModal-titleSection textarea,
+.dark-theme .tags-block input,
+.dark-theme .block-body-newest-followers-posts .Posts li .Posts-counter span,
+.dark-theme .sidebar .block .block-list.Posts li .Posts-info-name,
+.dark-theme .block-body-newest-followers-posts .btn:hover {
     color: #fff;
 }
 .dark-theme .page-privacy .post-tags ul li>a,
@@ -239,7 +253,10 @@
 .dark-theme .gsc-control-cse .gs-snippet,
 .dark-theme .gsc-control-cse .gs-promotion em,
 .dark-theme .gsc-control-cse .gs-snippet,
-.dark-theme .gsc-control-cse .gs-promotion em {
+.dark-theme .gsc-control-cse .gs-promotion em,
+.dark-theme .modal-editor-sec .modal--subTitle,
+.dark-theme .change-slug-btn:hover,
+.dark-theme .m-listview .listview-items .listview-item-info .item--title {
     color: #ccc;
 }
 .dark-theme .btn-bookmark svg,
@@ -281,7 +298,9 @@
 .dark-theme .table-stats-list .postName--options a,
 .dark-theme .follow-suggestion .row .followItemContent-body-desc,
 .dark-theme .navbar .button .btn-text:nth-child(2):before,
-.dark-theme .btn-border {
+.dark-theme .btn-border,
+.dark-theme .tag-information,
+.dark-theme .m-listview .listview-items .listview-item-info .item--descreption {
     color: #aaa;
 }
 .dark-theme .label--username input {
@@ -299,7 +318,8 @@
 }
 .dark-theme .mainColor--bg .navbar-menu-list li.navbar-menu-label>a,
 .dark-theme .mainColor--bg .navbar-menu-list li:hover>a,
-.dark-theme .page-search .gsc-cursor-box .gsc-cursor-page.gsc-cursor-current-page {
+.dark-theme .page-search .gsc-cursor-box .gsc-cursor-page.gsc-cursor-current-page,
+.dark-theme .tags-block-list--item {
     color: #333;
 }
 .dark-theme .page-feed .posts-section .postItem.postItemNoPic .post-caption .name,
@@ -314,7 +334,8 @@
 .dark-theme [class*=md-block-]:not(.md-block-code):not(.md-block-embed) a,
 .dark-theme .author .btn-follow.is-followed,
 .dark-theme .page-notifications .notifications-list li .user-info-time,
-.dark-theme .comments .responses-editor.open .user--name {
+.dark-theme .comments .responses-editor.open .user--name,
+.dark-theme .modal .modal-content .modal-body .virgool-rules a {
     color: #48b7ff;
 }
 .dark-theme .gs-result .gs-title,
@@ -326,6 +347,10 @@
     color: #ffbc00;
     border-color: #ffbc00 !important;
 }
+.dark-theme .change-slug-btn,
+.dark-theme .block-body-newest-followers-posts .btn {
+    color: #ffbc00;
+}
 .dark-theme .btn-action-toggle,
 .dark-theme .promotion-box .body .text .buttons .btn-border,
 .dark-theme .author .btn-follow.is-followed,
@@ -334,6 +359,9 @@
 }
 .dark-theme .btn-bookmark:hover svg {
     stroke: #ffbc00;
+}
+.dark-theme .block-body-newest-followers-posts .btn {
+    fill: #ffbc00;
 }
 .dark-theme .btn-bookmark.is-selected svg {
     fill: #ffbc00;
@@ -347,6 +375,9 @@
 .dark-theme .comments .responses-editor .responses-header,
 .dark-theme .md-block-image figcaption {
     color: rgba(255,255,255,0.5);
+}
+.dark-theme .block-body-newest-followers-posts .btn:hover svg {
+    fill: #fff;
 }
 .dark-theme .comments .card-cm {
     border-color: #111;
@@ -405,7 +436,8 @@
 .dark-theme .page-roadmap .roadmap-container .done-tasks ul li i svg,
 .dark-theme .page-roadmap .roadmap-container .inprogress-tasks ul li i svg,
 .dark-theme .page-roadmap .roadmap-container .upcoming-tasks ul li i svg
-.dark-theme .modal-buttons .btn-social.btn-gray-color svg {
+.dark-theme .modal-buttons .btn-social.btn-gray-color svg,
+.dark-theme .modal-editor .button--close svg {
     fill: #fff;
 }
 .dark-theme .ct-label,

@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Virgool Dark",
   "short_name": "VrgDark",
-  "version": "1.0",
+  "version": "1.1",
   "description": "With VirgoolDark extension you can change Virgool™ theme to dark.",
   "author": "Alireza Yousefi Azar",
   "permissions": [

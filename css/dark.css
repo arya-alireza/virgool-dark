@@ -16,7 +16,8 @@
 .dark-theme .page-contactus .contact-container .form-group textarea,
 .dark-theme .section-setting .groupbox,
 .dark-theme .page-notifications .notifications-list li,
-.dark-theme .page-feeds {
+.dark-theme .page-feeds,
+.dark-theme .author .btn-follow {
     background: #222;
 }
 .dark-theme .m-listview,
@@ -57,7 +58,8 @@
 .dark-theme .page-search .gsc-control-wrapper-cse .gs-result:not(.gs-no-results-result),
 .dark-theme .page-search .gsc-cursor-box .gsc-cursor-page,
 .dark-theme .tags-block,
-.dark-theme .sidebar .block-newest-followers-posts {
+.dark-theme .sidebar .block-newest-followers-posts,
+.dark-theme .m-listview .listview-items .listview-item {
     background: #111;
 }
 .dark-theme .notify-list .notify--title,
